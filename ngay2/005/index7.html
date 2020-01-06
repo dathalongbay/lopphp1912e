@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        p {
+            border-width: 5px;
+            border-color: red;
+        }
+
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+
+        /* dotted dashed solid double
+        => border-top-style: dotted;
+        border-right-style: dashed;
+        border-bottom-style: solid;
+        border-left-style: double;
+
+        thự tự : trên => phải => dưới => trái
+        chính là vòng quay của kim đồng hồ
+        từ phải quả trái
+
+        */
+        p.mix {border-style: dotted dashed solid double;}
+    </style>
+</head>
+<body>
+<h1>Các kiểu đường viền border-style</h1>
+
+<p class="dotted">kiểu dấu chấm</p>
+<p class="dashed">kiểu gạch ngang</p>
+<p class="solid">kiểu liền</p>
+<p class="double">kiểu 2 đường viền song song</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">Không có border</p>
+<p class="hidden">Kiểu border ẩn</p>
+<p class="mix">Kiểu kết hợp theo 4 hướng thứ tự là : trên => phải
+=> dưới => trái</p>
+</body>
+</html>
