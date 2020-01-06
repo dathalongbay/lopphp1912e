@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        #target {
+            height: 500px;
+            width: 100%;
+            border: 2px dashed red;
+
+            background-color: orange;
+            background-image: url("cho-bull-gia-re.jpg");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        Cách viết rút gọn của các thuộc tính nền
+        Có thể gom tất cả các thuộc tính liên quan đến background
+        như background-color , background-image , background-repeat
+        background-attachment , background-position
+        vào 1 thuộc tính là background
+        ví dụ :
+        background: #ffffff url("img_tree.png") no-repeat right top;
+        thứ tự viết tắt
+        1 - giá trị của background-color
+        2 - giá trị của background-image
+        3 - giá trị của background-repeat
+        4 - giá trị của background-attachment
+        5 - giá trị của background-position
+
+        Nếu không cần thiết lập giá trị của thuộc tính nền nào trong 5
+        thuộc tính trên bạn chỉ cần bỏ nó đi
+        nhưng phải viết đúng thứ tự bên trên
+    </pre>
+
+    <div id="target">
+
+    </div>
+</body>
+</html>
