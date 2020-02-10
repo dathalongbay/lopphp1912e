@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .classA {
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+
+        .classB {
+            display: inline-block;
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>display:inline-block</h1>
+
+    <pre>
+        inline-block sự kiết hợp của inline và block
+    </pre>
+
+    <a class="classA">Thẻ a so 1</a>
+    <a class="classA">Thẻ a so 2</a>
+    <a class="classB">Thẻ a so 3</a>
+    <a class="classB">Thẻ a so 4</a>
+
+    <pre>
+        Kết luận không thể dùng thuộc tính width ( chiều rộng )
+        và height ( chiều cao ) cho thẻ có display là inline
+
+        Khi muốn đặt width và height cho nhóm thẻ inline mà không làm mất
+        đặc tính inline của thẻ thì sẽ tiến hành đặt display: inline-block
+    </pre>
+</body>
+</html>
